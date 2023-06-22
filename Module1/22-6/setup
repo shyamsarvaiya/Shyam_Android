@@ -1,0 +1,16 @@
+Step 1: Download JDK -> https://www.java.com/en/download/
+
+step 2: Install JDK ->
+
+step 3: Set the path of JDK -> C:\Program Files\Java\jdk1.8.0_191\bin
+
+This pc ->right click ->properties->advanced system settings
+->environment variables->new ->path->PASTE YOUR PATH->click on OK
+
+step 4: open your CMD
+type java	
+
+step 5: Download IntelIJIDEA 
+https://www.jetbrains.com/idea/download/?var=1&section=windows
+
+step 6:Install IntelIJIDEA
