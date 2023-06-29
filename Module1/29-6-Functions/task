@@ -1,0 +1,25 @@
+Functions:
+
+1)Inbuilt:
+
+
+
+
+2)User defined:
+
+1)with return type with para
+2)with para without return type
+3)with return type without para
+4)without return type without para
+
+
+fun fun_name(parameter/arguments):Return type
+{
+
+return value;
+
+}
+
+
+fun a1() => return a+b
+
