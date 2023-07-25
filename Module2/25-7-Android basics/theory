@@ -1,0 +1,16 @@
+Android Architecture
+
+Designing->XML
+Coding->Kotlin
+
+res->resource->designing
+drawable->images
+layout->design file
+mipmap->inbuilt images
+values->color,string,style
+xml->xml file
+
+java->Kotlin Coding
+
+Manifest->Launching
+
