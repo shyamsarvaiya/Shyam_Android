@@ -1,0 +1,5 @@
+Intent: Switching from one activity to another activity
+
+Types of Intent
+1)explicit:Switching from one activity to another activity in same app
+2)implicit:Switching from one activity to another activity between diffrent app
