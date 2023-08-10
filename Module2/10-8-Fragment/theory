@@ -1,0 +1,19 @@
+Fragment:Multiple Screens On One Activity
+
+Types of Fragment:
+1)Static -> Launching -> XML
+2)Dynamic-> Launching -> Kotlin
+
+->If fragment wants to launch there is a minimum one activity
+
+
+
+A to A
+A to F
+F to A
+F to F
+
+If your destination is Activity then Intent Code
+If your destination is Fragment then Manager Code
+
+
