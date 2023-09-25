@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:id="@+id/upcoming"
+            android:title="@string/Upcoming"/>
+        <item android:id="@+id/complete"
+            android:title="@string/Complete"/>
+        <item android:id="@+id/update"
+            android:title="@string/Update"/>
+        <item android:id="@+id/delete"
+            android:title="@string/Delete"/>
+</menu>
