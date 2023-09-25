@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  it's the design for the add title and content of the note -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UpdateActivity">
+
+    <TextView
+        android:id="@+id/updatetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_semibold_italic"
+        android:text="Update Notes."
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"/>
+
+    <ImageView
+        android:id="@+id/updatesave"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:padding="12dp"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/updatetitle"
+        android:layout_marginEnd="16dp"
+        />
+
+    <EditText
+        android:id="@+id/updateedit1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Enter The Title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/updatetitle"
+        android:background="@drawable/blue_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"
+        android:fontFamily="@font/poppins_semibold_italic"/>
+
+
+    <EditText
+        android:id="@+id/updateedit2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Enter The Description"
+        android:padding="12dp"
+        android:gravity="top"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/updateedit1"
+        android:background="@drawable/blue_border"
+        android:fontFamily="@font/poppins_semibold_italic"/>
+
+
+</RelativeLayout>
