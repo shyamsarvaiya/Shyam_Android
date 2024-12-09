@@ -1,0 +1,41 @@
+Select All:Select * from tablename
+Select Row:Select * from tablename where id=?
+Select Col:Select colname from tablename
+
+Order:select * from tablename order by colname ASC
+
+Scalar Functions:
+1)UCASE->SELECT UCASE(NAME) FROM Students;
+2)LCASE
+3)MID->SELECT MID(NAME,1,4) FROM Students; 
+4)LEN->SELECT LENGTH(NAME) FROM Stuents; 
+5)ROUND->SELECT ROUND(MARKS,0) FROM table_name;
+6)NOW-> SELECT NAME, NOW() AS DateTime FROM Students
+7)FORMAT->SELECT NAME, FORMAT(Now(),'YYYY-MM-DD') AS Date FROM
+Students; 
+
+
+Agreegate Functions:
+
+MAX->Select MAX(salary) from tablename;
+MIN
+SUM
+AVG
+COUNT
+FIRST->Selecr salary FROM details FIRST LIMIT 1;
+LAST->SELECT salary FROM details ORDER BY salary DESC LIMIT 1;    
+
+second highest
+1)FULL JOIN:
+SELECT * FROM location RIGHT JOIN details on location.id=details.id
+UNION
+SELECT * FROM location LEFT JOIN details on location.id=details.id
+
+2)RIGHT JOIN:
+SELECT * FROM location RIGHT JOIN details on location.id=details.id
+
+3)LEFT JOIN:
+SELECT * FROM location LEFT JOIN details on location.id=details.id
+
+4)INNER JOIN:
+SELECT * FROM location LEFT JOIN details on location.id=details.id

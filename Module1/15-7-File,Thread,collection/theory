@@ -1,0 +1,43 @@
+Thread
+Collection
+File
+
+Thread -> Handle Process
+
+There are 2 ways
+1)class -> Thread
+2)interface->Runnable
+
+Thread Lifecycle:
+init
+start
+run
+stop
+destroy
+
+Synchronization 
+
+Collection -> Classes+interface+methods
+
+List
+1)ArrayList
+2)LinkedList
+
+
+MutableList->Can Change
+ImmutableList->Can not change
+
+
+Set
+1)HashSet
+2)LinkedHashSet
+
+Map
+1)HashMap
+
+Vector
+
+Stack
+
+
+
